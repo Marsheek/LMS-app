@@ -4,6 +4,8 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
+    <!-- Added username to devise with migration marshall -->
+    <%= f.input :username, required: true, autofocus: true %>
     <%= f.input :email, required: true, autofocus: true %>
 
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
