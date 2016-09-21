@@ -10,7 +10,7 @@ gem 'devise'
 gem 'ratyrate'
 gem 'carrierwave'
 gem 'cloudinary'
-
+gem 'record_tag_helper'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
