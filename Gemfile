@@ -7,6 +7,9 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
 gem 'devise'
+gem 'ratyrate'
+gem 'carrierwave'
+gem 'cloudinary'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

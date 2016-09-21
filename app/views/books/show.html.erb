@@ -22,7 +22,10 @@
 
 <p>
   <strong>User:</strong>
-  <%= @book.user %>
+  <%= @book.user.email %>
+</p>
+<p>
+  <%= rating_for @book, 'rating', disable_after_rate: true %>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
