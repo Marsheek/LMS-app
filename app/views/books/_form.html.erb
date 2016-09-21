@@ -5,6 +5,8 @@
     <%= f.input :author %>
     <%= f.input :title %>
     <%= f.input :description %>
+    <%= rating_for book, 'rating', disable_after_rate: true %>
+    <%= f.input :image, as: :file %>
     <%= f.input :book_category %>
   </div>
 
